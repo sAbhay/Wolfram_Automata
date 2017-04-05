@@ -54,8 +54,8 @@ class CellularAutomata
     {
       if (cells[i] == 1)
       {
-        //fill(generation * 255/height, 255, 255);
-        fill(255, 0, 255);
+        fill(generation * 255/height, 255, 255);
+        //fill(255, 0, 255);
         noStroke();
         rect(i * size, generation * size, size, size);
       }
@@ -63,7 +63,7 @@ class CellularAutomata
   }
 
   public void restart()
-  {
+  { 
     for (int i = 0; i < cells.length; i++)
     {
       cells[i] = 0;
