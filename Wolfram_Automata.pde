@@ -1,7 +1,3 @@
-import at.mukprojects.console.*;
-
-Console c;
-
 CellularAutomata ca;
 
 int rules[] = {1, 0, 0, 1, 0, 1, 1, 0};
